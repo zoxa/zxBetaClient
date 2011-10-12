@@ -20,7 +20,7 @@
 		<activity android:name="VoipAccountManager" android:label="@string/app_name_voipacc" />
 	</application>
 
-	<uses-sdk android:minSdkVersion="8"/>
+	<uses-sdk android:minSdkVersion="7"/>
 
 	<!-- Permissions for SMS Sender and Phone Caller -->
 	<uses-permission android:name="android.permission.INTERNET" />
