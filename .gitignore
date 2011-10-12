@@ -1,5 +1,6 @@
 /.project
 /.classpath
-/.settings/*
-/bin/*
-/gen/*
+/.settings
+/org.eclipse.jdt.core.prefs
+/bin
+/gen
