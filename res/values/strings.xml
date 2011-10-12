@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Betamax VOIP client</string>
+	<string name="app_name_dialer">Dialer</string>
+	<string name="app_name_sms">SMS</string>
+	<string name="app_name_voipacc">Voip Account Setup</string>
+
+	<string name="menu_opt">Account</string>
+	<string name="menu_about">About</string>
+
+	<string name="pref_service_title">Provider URL</string>
+	<string name="pref_service_d_title">Enter provider URL like voipcheap.com</string>
+
+	<string name="pref_username_title">Username</string>
+	<string name="pref_username_d_title">Enter username for your provider</string>
+
+	<string name="pref_password_title">Password</string>
+	<string name="pref_password_d_title">Enter password for your account</string>
+
+	<string name="pref_number_title">Number</string>
+	<string name="pref_number_d_title">Enter your phone number, used for phone calls and
+		SMS</string>
+
+	<string name="pref_country_title">Country Code</string>
+	<string name="pref_country_d_title">Enter your country code</string>
+
+	<string name="pref_access_number_title">Access Number</string>
+	<string name="pref_access_number_d_title">Enter your Access Number</string>
+
+	<string name="sms_label">Number</string>
+	<string name="sms_message">Message</string>
+	<string name="sms_chars_count" formatted="false">Length: %s / SMS: %s</string>
+	<string name="sms_btn_send">Send</string>
+
+	<string name="error_sms_to_empty">Please insert Number for SMS</string>
+	<string name="error_sms_msg_empty">SMS Message is empty</string>
+
+	<string name="dialer_btn_n1">1</string>
+	<string name="dialer_btn_n2">2</string>
+	<string name="dialer_btn_n3">3</string>
+	<string name="dialer_btn_n4">4</string>
+	<string name="dialer_btn_n5">5</string>
+	<string name="dialer_btn_n6">6</string>
+	<string name="dialer_btn_n7">7</string>
+	<string name="dialer_btn_n8">8</string>
+	<string name="dialer_btn_n9">9</string>
+	<string name="dialer_btn_n0">0</string>
+	<string name="dialer_btn_nc">C</string>
+	<string name="dialer_btn_dial">Call</string>
+	<string name="dialer_btn_p2p">Connect</string>
+
+	<string name="error_dial_number_empty">Number is empty</string>
+
+	<string name="error_exc_host_fail">Error, your provider behaves wrongly!</string>
+	<string name="error_exc_host_notfound">Error, your provider does not respond to requests!
+	</string>
+	<string name="error_response_msg" formatted="false">There was an error
+		sending a request:\n
+		Provider URL used: %s\n
+		Username used: %s\n
+		Your number: %s\n
+		Used number: %s\n
+		Error: %s
+    </string>
+
+	<string name="dialog_dial">Starting Phone 2 Phone</string>
+	<string name="dialog_sms">Sending SMS</string>
+	<string name="dialog_wait">Please, wait...</string>
+
+	<string name="response_ok_sms">SMS sent</string>
+	<string name="response_ok_call">Phone 2 Phone started</string>
+</resources>

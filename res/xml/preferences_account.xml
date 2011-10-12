@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<EditTextPreference android:key="service"
+		android:title="@string/pref_service_title" android:dialogTitle="@string/pref_service_d_title"
+		android:singleLine="true" />
+
+	<EditTextPreference android:key="username"
+		android:title="@string/pref_username_title" android:dialogTitle="@string/pref_username_d_title"
+		android:singleLine="true" />
+
+	<EditTextPreference android:key="password"
+		android:title="@string/pref_password_title" android:dialogTitle="@string/pref_password_d_title"
+		android:singleLine="true" android:password="true" />
+
+	<EditTextPreference android:key="number"
+		android:title="@string/pref_number_title" android:dialogTitle="@string/pref_number_d_title"
+		android:singleLine="true" android:phoneNumber="true" />
+
+	<EditTextPreference android:key="access_number"
+		android:title="@string/pref_access_number_title" android:dialogTitle="@string/pref_access_number_d_title"
+		android:singleLine="true" android:phoneNumber="true" />
+
+	<EditTextPreference android:key="country_code"
+		android:title="@string/pref_country_title" android:dialogTitle="@string/pref_country_d_title"
+		android:singleLine="true" />
+
+</PreferenceScreen>

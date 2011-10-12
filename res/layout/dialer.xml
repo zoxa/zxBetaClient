@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+	<Button android:id="@+id/dialerBtnDel" android:text="@string/dialer_btn_nc"
+		android:layout_alignParentRight="true" android:layout_marginLeft="5pt"
+		android:layout_height="23pt" android:layout_width="20pt" />
+
+	<TextView android:id="@+id/dialerNumber" android:layout_width="fill_parent"
+		android:layout_height="20pt" android:textSize="10pt" android:gravity="fill_vertical"
+		android:background="#FF333333" android:layout_alignParentLeft="true"
+		android:layout_toLeftOf="@id/dialerBtnDel" />
+
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true">
+
+		<TableRow android:gravity="center_horizontal">
+			<Button android:id="@+id/dialerBtnN1" android:text="@string/dialer_btn_n1"
+				android:layout_height="25pt" android:layout_width="40pt" zx="1" />
+
+			<Button android:id="@+id/dialerBtnN2" android:text="@string/dialer_btn_n2"
+				android:layout_height="25pt" android:layout_width="40pt" />
+
+			<Button android:id="@+id/dialerBtnN3" android:text="@string/dialer_btn_n3"
+				android:layout_height="25pt" android:layout_width="40pt" />
+		</TableRow>
+
+		<TableRow android:gravity="center_horizontal">
+			<Button android:id="@+id/dialerBtnN4" android:text="@string/dialer_btn_n4"
+				android:layout_height="25pt" android:layout_width="40pt" />
+
+			<Button android:id="@+id/dialerBtnN5" android:text="@string/dialer_btn_n5"
+				android:layout_height="25pt" android:layout_width="40pt" />
+
+			<Button android:id="@+id/dialerBtnN6" android:text="@string/dialer_btn_n6"
+				android:layout_height="25pt" android:layout_width="40pt" />
+		</TableRow>
+
+		<TableRow android:gravity="center_horizontal">
+			<Button android:id="@+id/dialerBtnN7" android:text="@string/dialer_btn_n7"
+				android:layout_height="25pt" android:layout_width="40pt" />
+
+			<Button android:id="@+id/dialerBtnN8" android:text="@string/dialer_btn_n8"
+				android:layout_height="25pt" android:layout_width="40pt" />
+
+			<Button android:id="@+id/dialerBtnN9" android:text="@string/dialer_btn_n9"
+				android:layout_height="25pt" android:layout_width="40pt" />
+		</TableRow>
+
+		<TableRow android:gravity="center_horizontal">
+			<Button android:id="@+id/dialerBtnDial" android:text="@string/dialer_btn_dial"
+				android:layout_height="25pt" android:layout_width="40pt" />
+
+			<Button android:id="@+id/dialerBtnN0" android:text="@string/dialer_btn_n0"
+				android:layout_height="25pt" android:layout_width="40pt" />
+
+			<Button android:id="@+id/dialerBtnP2P" android:text="@string/dialer_btn_p2p"
+				android:layout_height="25pt" android:layout_width="40pt" />
+		</TableRow>
+
+	</TableLayout>
+
+</RelativeLayout>
